@@ -1,0 +1,85 @@
+*{margin: 0; padding: 0; text-decoration: none; list-style: none;}
+header{
+  width:100%; height: 80px; background-color: #34393A;
+  display: flex; justify-content: center; align-items: center;}
+
+
+nav {
+  width:100%; height: 100px; background-color: #34393A;
+  display: flex; justify-content: center; align-items: center;
+
+}
+
+
+
+.menu {
+width: 1024px; border: 0px solid blue;
+
+}
+
+nav > .menu > ul{display: grid;grid-template-columns: 1fr 1fr 1fr 1fr 1fr;}
+nav > .menu > ul > li{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0px solid red;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 20px; font-weight: 400; letter-spacing: -1.5px;
+
+}
+
+nav > .menu > ul > li> a{color: white;}
+nav > .menu > ul > li> a:hover{color: #FFE643;}
+
+.bg{
+  width: 100%; height: 800px; background-size: cover;
+  background-position: center;
+}
+
+.bg1{ height: 1000px; background-image: url('img/00_02_bg.png');}
+.bg2{background-image: url('img/00_03_bg.png');}
+.bg3{background-image: url('img/00_04_bg.png');}
+.bg4{background-image: url('img/00_05_bg.png');}
+.bg5{background-image: url('img/00_06_bg.png');}
+.bg6{background-image: url('img/00_07_bg.png');}
+
+.bg_ext{display: flex;justify-content: center; align-items: center;}
+
+.tit1{
+  position: relative;
+  display: inline-block;
+  left: 60%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.tit2{
+  position: relative;
+  display: inline-block;
+  left: -28%;
+  top: 0%;
+  tranform: translateX(-50%) translateY(-50%);
+}
+
+
+.tit3{
+  position: relative;
+  display: inline-block;
+  left: 25%;
+  top: 0%;
+  tranform: translateX(-50%) translateY(-50%);
+}
+
+footer{width: 100%;height: 120px;background-color: #292929;}
+.f_wrap{width: 1024px;height: 40px;border: 0px solid red;
+  display: flex;justify-content: space-between;align-items: center;}
+
+.f_left{display: inline-block;width: 200px;height: 40px;
+  border: 0px solid blue;}
+.f_right{display: inline-block;width: 400px;height: 40px;
+  border: 0px solid blue;font-family: 'Noto Sans KR', sans-serif;
+  font-size: 18px;font-weight: 200;letter-spacing: -1.5px;color: #CECECE;text-align: right;}
+
+
+.bt{transform: scale(1.0);transition: 0.5s;}
+.bt:hover{transform: scale(1.1);transition: 0.5s;}
